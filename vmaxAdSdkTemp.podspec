@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   #spec.source_files  = "Classes/*.{h,m}"
 
-  spec.source_files  = "vmaxAdSdkTemp/**/*.{h,m,swift}"
-  #spec.vendored_libraries = "vmaxAdSdkTemp-0.0.44/VMaxAdSDK/lib/*.a"
+  #spec.source_files  = "vmaxAdSdkTemp/**/*.{h,m,swift}"
+  spec.vendored_libraries = "vmaxAdSdkTemp-0.0.1/vmaxAdSdkTemp/lib/*.a"
   #spec.source_files  = "vmaxAdSdkTemp-0.0.44/VMaxAdSDK/lib/*",  "vmaxAdSdkTemp-0.0.44/VMaxAdSDK/include/*"
   spec.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '$(inherited) -ObjC -lxml2 -fobjc-arc -lstdc++'
