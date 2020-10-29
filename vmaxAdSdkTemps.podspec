@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   #spec.source_files  = "Classes/*.{h,m}"
 
   #spec.source_files  = "vmaxAdSdkTemps/**/*.{h,m,xib,storyboard,swift}"
-  spec.vendored_libraries = "vmaxAdSdkTemps-0.0.3/vmaxAdSdkTemps/lib/libVMaxAdSDK.a"
+  spec.vendored_libraries = "vmaxAdSdkTemps-0.0.3/vmaxAdSdkTemps/lib/*.a"
   #spec.source_files  = "vmaxAdSdkTemps-0.0.44/VMaxAdSDK/lib/*",  "vmaxAdSdkTemps-0.0.44/VMaxAdSDK/include/*"
   spec.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '$(inherited) -ObjC -lxml2 -fobjc-arc -lstdc++'
