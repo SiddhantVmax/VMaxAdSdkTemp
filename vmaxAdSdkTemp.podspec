@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "Siddhant Nigam" => "siddhant.n@vserv.com" }
   spec.source       = { :http => "https://github.com/SiddhantVmax/vmaxAdSdkTemp/archive/0.0.1.zip", }
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "12.0"
   #spec.source_files  = "Classes/*.{h,m}"
 
   #spec.source_files  = "vmaxAdSdkTemp/**/*.{h,m,swift}"
